@@ -1,0 +1,92 @@
+html, body {margin: 0; padding: 0; height: 70%; text-align: center;}
+section {min-height: 100%;}
+a {text-decoration: none;}
+li {list-style-type: none; }
+
+
+h1,h2,h3,h4 {font-family: 'Roboto' , sans-serif; font-weight: 500; color: #48A300; text-transform: none;}
+h2 {color: #FF0000;}
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+h4, p {font-family: 'Roboto Slab', serif;color: #494949;}
+
+hr {width: 30px; height: 4px; background: #494949; border: 0; margin: 0 auto 40px auto;}
+#logo  li, img {transition: all 300ms; 10.5 -o-transition: all 300ms; 4.0 -webkit-transition: all 300ms; 4.0 -moz-transition: all 300ms; 3.1 -webkit-transition: all 300ms;}
+
+/*header*******/
+
+header {
+  width: 100%;
+  height: 115px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+#logo {
+  width: 140px;
+  float: left;
+  margin: 10px 0 0 50px;
+}
+
+#logo:hover {
+  opacity: 0.5;
+}
+
+#logo img {
+  width: 70%;
+}
+
+header nav {
+  float: right;
+  margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+  float: right;
+  margin-right: 25px;
+}
+
+header nav ul li a {
+  font-size: 22px;
+}
+
+header nav ul li:hover {
+  padding-top: 5px;
+}
+
+
+/*download*******/
+
+#download
+
+
+/*discord*****/
+
+#discord hr h1 h2 h3 {
+  width: 60px;
+  float: center;
+  margin: 5px 0 0 25px;
+}
+
+
+#discord img {
+  width: 20%;
+}
+
+/*berwerben*****/
+
+#bewerben hr h1 h2 h3 {
+  width: 60px;
+  float: center;
+  margin: 5px 0 0 25px;
+}
+
+
+#bewerben img {
+  width: 20%;
+}
+
+/*support*****/
